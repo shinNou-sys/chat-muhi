@@ -1,0 +1,135 @@
+{
+  "_catatan": "TEMPLATE UNTUK SMK MUHAMMADIYAH 1 KOTA SUKABUMI. Nama sekolah dan aset berasal dari materi yang diberikan. JURUSAN, SYARAT, JADWAL, DAN KONTAK di bawah harus diverifikasi/diganti dengan data resmi sekolah sebelum dipakai sebagai informasi resmi.",
+  "nama": "SMK Muhammadiyah 1 Kota Sukabumi",
+  "tagline": "Portal PSB modern dengan informasi jurusan dan Asisten AI untuk membantu calon siswa dan orang tua.",
+  "tahunAjaran": "2026/2027",
+  "alamat": "Silakan isi alamat resmi sekolah",
+  "telepon": "Silakan isi nomor resmi sekolah",
+  "whatsapp": "Silakan isi WhatsApp resmi sekolah",
+  "email": "Silakan isi email resmi sekolah",
+  "jamLayanan": "Silakan isi jam layanan resmi panitia PSB",
+  "pertanyaanCepat": [
+    "Jurusan apa saja yang tersedia?",
+    "Bagaimana cara mendaftar?",
+    "Apa syarat pendaftaran?",
+    "Apa keunggulan PPLG?"
+  ],
+  "jurusan": [
+    {
+      "kode": "PPLG",
+      "nama": "Pengembangan Perangkat Lunak dan Gim",
+      "ringkas": "Belajar membuat aplikasi web, mobile, gim, dan fitur berbasis AI.",
+      "icon": "pplg.svg",
+      "tags": [
+        "Web",
+        "Mobile",
+        "Game",
+        "AI"
+      ],
+      "keunggulan": [
+        "Pemrograman web, mobile, gim, dan AI (sesuaikan dengan data resmi sekolah)",
+        "Laboratorium komputer (verifikasi data resmi)",
+        "Guru produktif relevan dengan industri (verifikasi)"
+      ],
+      "prospekKerja": [
+        "Junior developer",
+        "Web developer",
+        "Game developer"
+      ],
+      "prospekKuliah": [
+        "Informatika",
+        "Ilmu Komputer",
+        "Sistem Informasi"
+      ]
+    },
+    {
+      "kode": "TJKT",
+      "nama": "Teknik Jaringan Komputer dan Telekomunikasi",
+      "ringkas": "TEMPLATE — ganti jika jurusan ini memang tersedia di sekolah.",
+      "icon": "tjkt.svg",
+      "tags": [
+        "Jaringan",
+        "Server",
+        "Keamanan"
+      ],
+      "keunggulan": [
+        "Isi keunggulan resmi jurusan"
+      ],
+      "prospekKerja": [
+        "Isi prospek kerja resmi"
+      ],
+      "prospekKuliah": [
+        "Isi prospek kuliah resmi"
+      ]
+    },
+    {
+      "kode": "DKV",
+      "nama": "Desain Komunikasi Visual",
+      "ringkas": "TEMPLATE — ganti jika jurusan ini memang tersedia di sekolah.",
+      "icon": "dkv.svg",
+      "tags": [
+        "Desain",
+        "Visual",
+        "Kreatif"
+      ],
+      "keunggulan": [
+        "Isi keunggulan resmi jurusan"
+      ],
+      "prospekKerja": [
+        "Isi prospek kerja resmi"
+      ],
+      "prospekKuliah": [
+        "Isi prospek kuliah resmi"
+      ]
+    }
+  ],
+  "syarat": [
+    "Isi syarat pendaftaran resmi sekolah",
+    "Isi dokumen resmi yang diperlukan",
+    "Isi ketentuan lain sesuai pengumuman PSB"
+  ],
+  "alur": [
+    {
+      "judul": "Informasi PSB",
+      "deskripsi": "Baca pengumuman resmi dan pilih jurusan."
+    },
+    {
+      "judul": "Pilih jurusan",
+      "deskripsi": "Tentukan program keahlian sesuai minat dan data resmi sekolah."
+    },
+    {
+      "judul": "Persiapkan persyaratan",
+      "deskripsi": "Siapkan dokumen sesuai daftar resmi."
+    },
+    {
+      "judul": "Pendaftaran",
+      "deskripsi": "Isi formulir pendaftaran melalui kanal resmi sekolah."
+    },
+    {
+      "judul": "Verifikasi",
+      "deskripsi": "Tunggu pemeriksaan berkas oleh panitia."
+    },
+    {
+      "judul": "Pengumuman",
+      "deskripsi": "Ikuti pengumuman dan daftar ulang sesuai jadwal resmi."
+    }
+  ],
+  "jadwal": [
+    {
+      "tahap": "Pendaftaran",
+      "tanggal": "Isi jadwal resmi sekolah"
+    },
+    {
+      "tahap": "Verifikasi/Tes",
+      "tanggal": "Isi jadwal resmi sekolah"
+    },
+    {
+      "tahap": "Pengumuman",
+      "tanggal": "Isi jadwal resmi sekolah"
+    },
+    {
+      "tahap": "Daftar ulang",
+      "tanggal": "Isi jadwal resmi sekolah"
+    }
+  ]
+}

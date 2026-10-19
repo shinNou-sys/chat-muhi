@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07090b">
+  <meta name="description" content="Portal PSB SMK Muhammadiyah 1 Kota Sukabumi">
+  <title>SMK Muhammadiyah 1 Kota Sukabumi — PSB</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+  <a class="skip" href="#main">Lewati ke konten</a>
+
+  <header class="top">
+    <a class="brand" href="#beranda" aria-label="SMK Muhammadiyah 1 Kota Sukabumi">
+      <img src="assets/logo-sekolah.jpg" alt="Logo SMK Muhammadiyah 1 Kota Sukabumi">
+      <span>SMK MUHAMMADIYAH 1<small>KOTA SUKABUMI</small></span>
+    </a>
+    <nav aria-label="Navigasi utama">
+      <a href="#beranda" class="active">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#jurusan">Jurusan</a>
+      <a href="#alur">PSB</a>
+      <a href="#faq">FAQ</a>
+      <a href="#" id="open-chat">Asisten AI</a>
+    </nav>
+    <button class="top-chat" type="button" id="open-chat-top">◉ <span>Chat AI</span></button>
+  </header>
+
+  <main id="main">
+    <section id="beranda" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-text">
+        <p class="eyebrow">SMK MUHAMMADIYAH 1 KOTA SUKABUMI</p>
+        <h1>Selamat Datang di <strong>Portal PSB</strong></h1>
+        <p id="tagline" class="lead">Temukan informasi penerimaan siswa baru, jurusan, keunggulan program keahlian, dan prospek masa depan bersama Asisten PSB.</p>
+        <div class="actions">
+          <button class="btn solid" type="button" id="open-chat-hero">✦ &nbsp; Mulai Chat AI</button>
+          <a class="btn" href="#jurusan">Lihat Jurusan&nbsp; →</a>
+        </div>
+      </div>
+      <aside class="hero-side" aria-label="Identitas sekolah">
+        <div class="hero-logo"><img src="assets/logo-sekolah.jpg" alt=""></div>
+        <div>
+          <span class="side-kicker">PENERIMAAN SISWA BARU</span>
+          <b id="tahun">2026/2027</b>
+          <p>Berkarakter · Berkarya · Berprestasi</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="profil" class="block intro">
+      <div>
+        <p class="eyebrow dark">IDENTITAS SEKOLAH</p>
+        <h2>Belajar. Berkarya.<br><em>Berprestasi.</em></h2>
+      </div>
+      <p class="intro-copy">Portal ini dirancang sebagai pusat informasi PSB yang menggabungkan informasi sekolah dengan Asisten AI, sehingga calon siswa dan orang tua dapat menemukan informasi dengan cepat dan nyaman.</p>
+    </section>
+
+    <section id="jurusan" class="block">
+      <div class="section-head">
+        <div><p class="eyebrow dark">PROGRAM KEAHLIAN</p><h2>Pilih jurusan yang sesuai</h2></div>
+        <p>Gunakan data resmi sekolah pada <code>data/sekolah.json</code>. Icon pada template adalah icon ilustratif, bukan logo resmi jurusan.</p>
+      </div>
+      <div id="jurusan-list" class="cards"></div>
+    </section>
+
+    <section id="alur" class="block invert">
+      <div class="section-head">
+        <div><p class="eyebrow">PENERIMAAN SISWA BARU</p><h2>Alur pendaftaran</h2></div>
+        <p>Jadwal dan persyaratan harus disesuaikan dengan pengumuman resmi sekolah.</p>
+      </div>
+      <ol id="alur-list" class="steps"></ol>
+    </section>
+
+    <section id="syarat" class="block">
+      <div class="section-head">
+        <div><p class="eyebrow dark">INFO PSB</p><h2>Syarat & jadwal</h2></div>
+        <p>Data pada template ditandai agar mudah diganti.</p>
+      </div>
+      <div class="two">
+        <div class="panel"><h3>Syarat</h3><ul id="syarat-list" class="plain"></ul></div>
+        <div class="panel"><h3>Jadwal</h3><table><tbody id="jadwal-body"></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="ai-callout" aria-label="Asisten PSB">
+      <div>
+        <p class="eyebrow">ASISTEN PSB</p>
+        <h2>BUTUH INFORMASI?</h2>
+        <p>Biarkan Asisten PSB membantu menemukan informasi yang kamu butuhkan.</p>
+        <button class="btn solid" type="button" id="open-chat-banner">◉ &nbsp; Chat dengan Asisten PSB</button>
+      </div>
+      <div class="ai-orb" aria-hidden="true"><span>AI</span></div>
+    </section>
+
+    <section id="faq" class="block">
+      <div class="section-head"><div><p class="eyebrow dark">FAQ</p><h2>Pertanyaan umum</h2></div></div>
+      <div class="faq">
+        <details><summary>Apa itu PSB?</summary><p>PSB adalah proses Penerimaan Siswa Baru. Gunakan pengumuman resmi sekolah untuk informasi yang bersifat final.</p></details>
+        <details><summary>Jurusan apa saja yang tersedia?</summary><p>Daftar jurusan pada halaman ini diambil dari <code>data/sekolah.json</code> dan perlu diverifikasi dengan data resmi sekolah.</p></details>
+        <details><summary>Bagaimana cara menggunakan Asisten PSB?</summary><p>Klik tombol Chat AI di kanan bawah, lalu pilih pertanyaan cepat atau ketik pertanyaanmu.</p></details>
+        <details><summary>Bagaimana jika informasi belum tersedia?</summary><p>Asisten akan memberi tahu bahwa data belum tersedia dan mengarahkan pengguna untuk menghubungi panitia PSB.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontak" class="foot">
+    <div class="footer-brand">
+      <img src="assets/logo-sekolah.jpg" alt="Logo sekolah">
+      <div><b id="foot-nama">SMK MUHAMMADIYAH 1 KOTA SUKABUMI</b><p id="foot-alamat"></p></div>
+    </div>
+    <div class="footer-contact">
+      <span>Telepon <b id="foot-telp"></b></span>
+      <span>WhatsApp <b id="foot-wa"></b></span>
+      <span>Email <b id="foot-email"></b></span>
+      <span id="foot-jam"></span>
+    </div>
+    <small>© 2026 SMK Muhammadiyah 1 Kota Sukabumi · Portal PSB</small>
+  </footer>
+
+  <script src="site.js"></script>
+  <script src="widget.js"></script>
+</body>
+</html>
