@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname=path.dirname(fileURLToPath(import.meta.url));
 const sekolah=JSON.parse(readFileSync(path.join(__dirname,'data','sekolah.json'),'utf8'));
 const PORT=process.env.PORT||3000;
-const GEMINI_MODEL=process.env.GEMINI_MODEL||'gemini-2.5-flash';
+const GEMINI_MODEL=process.env.GEMINI_MODEL||'gemini-3.5-flash-lite';
 const ai=process.env.GEMINI_API_KEY?new GoogleGenAI({apiKey:process.env.GEMINI_API_KEY}):null;
 
 function buatSystemInstruction(s){
